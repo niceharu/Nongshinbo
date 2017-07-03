@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [NSThread sleepForTimeInterval:2];
     return YES;
 }
 
@@ -40,6 +41,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:(@"http://nongshinbo.nonghyup.com")]];
 }
 
 

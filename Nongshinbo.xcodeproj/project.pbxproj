@@ -429,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GH4P76996H;
 				INFOPLIST_FILE = Nongshinbo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nonghyupit.Nongshinbo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GH4P76996H;
 				INFOPLIST_FILE = Nongshinbo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nonghyupit.Nongshinbo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				298C8D6F1F09DBE700560810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298C8D701F09DBE700560810 /* Build configuration list for PBXNativeTarget "NongshinboTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				298C8D721F09DBE700560810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298C8D731F09DBE700560810 /* Build configuration list for PBXNativeTarget "NongshinboUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				298C8D751F09DBE700560810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
