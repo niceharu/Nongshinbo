@@ -16,10 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a n
-//     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:(@"http://nongshinbo.nonghyup.com")]];
+    // Do any additional setup after loading the view, typically from a nib
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

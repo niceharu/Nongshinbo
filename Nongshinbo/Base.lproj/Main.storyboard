@@ -21,16 +21,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Intro" translatesAutoresizingMaskIntoConstraints="NO" id="Ng9-Op-5Nn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Intro" translatesAutoresizingMaskIntoConstraints="NO" id="lc5-Vv-Mno">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="bHv-cx-a0H">
+                                <rect key="frame" x="177" y="557" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ng9-Op-5Nn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EOK-dS-Kl2"/>
-                            <constraint firstAttribute="trailing" secondItem="Ng9-Op-5Nn" secondAttribute="trailing" id="Mso-qk-3Xo"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ng9-Op-5Nn" secondAttribute="bottom" id="mNI-Fs-bVm"/>
-                            <constraint firstItem="Ng9-Op-5Nn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qGL-ym-jfA"/>
+                            <constraint firstItem="lc5-Vv-Mno" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8ZI-ca-Kfb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bHv-cx-a0H" secondAttribute="bottom" constant="90" id="FJp-Uq-ZFo"/>
+                            <constraint firstAttribute="trailing" secondItem="lc5-Vv-Mno" secondAttribute="trailing" id="NKy-d9-a6O"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lc5-Vv-Mno" secondAttribute="bottom" id="POd-QP-Xad"/>
+                            <constraint firstItem="bHv-cx-a0H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dsq-3c-Kre"/>
+                            <constraint firstItem="lc5-Vv-Mno" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qVC-jV-wgM"/>
                         </constraints>
                     </view>
                 </viewController>

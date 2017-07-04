@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "762D1B25C2389E98CAE1820341DCF3DC0D40DCE5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8C33C0267D60AEC5B62C1299CEA39DF97A80D0FB" : 9223372036854775807,
+    "762D1B25C2389E98CAE1820341DCF3DC0D40DCE5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F4ED9652-7BBD-4CCC-908F-983025DAB304",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8C33C0267D60AEC5B62C1299CEA39DF97A80D0FB" : "Nongshinbo\/Nongshinbo\/",
+    "762D1B25C2389E98CAE1820341DCF3DC0D40DCE5" : "Nongshinbo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Nongshinbo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Nongshinbo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/niceharu\/Nongshinbo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "762D1B25C2389E98CAE1820341DCF3DC0D40DCE5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/niceharu\/Nongshinbo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C33C0267D60AEC5B62C1299CEA39DF97A80D0FB"
+    }
+  ]
+}
